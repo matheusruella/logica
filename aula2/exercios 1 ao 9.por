@@ -3,14 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-	/* 
-8) Um motorista deseja colocar no seu tanque X reais de gasolina. Escreva um algoritmo para ler o preço do litro da gasolina e o valor do pagamento, e exibir quantos litros ele conseguiu colocar no tanque.
 
-
-
-9) Faça um algoritmo que leia um número e retorne como resposta se ele é par ou impar
-
-*/
 	/*1) Leia um número e retorne como resposta se ele é positivo, negativo ou zero. */
 	/*
 	inteiro numero
@@ -172,8 +165,50 @@ Você foi contratado para fazer os cálculos para o dono.
 Com base nestes fatos, faça um algoritmo para ler as quantidades de pães e de broas, e depois
 calcular os dados solicitados.
 */
+/*
+	inteiro pao
+	inteiro broa
+	real venda
 	
+	escreva("Quantos pães venderam hoje? ")
+	leia(pao)
+	escreva("Quantas broas venderam hoje? ")
+	leia(broa)
 
+	venda = (pao*0.5) + (broa*5)
+	
+	escreva("Você arrecadou ", venda, " reais em vendas hoje, e você deve guardar,", venda/10, " na polpança")
+	*/
+		/*
+ 8) Um motorista deseja colocar no seu tanque X reais de gasolina.
+ Escreva um algoritmo para ler o preço do litro da gasolina e o valor do pagamento,
+ e exibir quantos litros ele conseguiu colocar no tanque.
+	 */
+	/*
+	 real reais
+	 real gasolina
+
+	escreva("Qual o valor da gasolina? ")
+	leia(gasolina)
+	escreva("Quantos reais desseja colocar? ")
+	leia(reais)
+
+	escreva("Com essa valor você consegue colocar ", reais/gasolina, " de gasolina") 
+	 */
+	 //9) Faça um algoritmo que leia um número e retorne como resposta se ele é par ou impar
+	/*	inteiro numero
+		real resultado
+		
+		escreva("Diga um número: ")
+		leia(numero)
+		resultado = numero/2
+		
+		se(resultado == 0  ){
+		escreva("esse numero é impar")
+		}senao{
+		escreva("Esse numero é par")
+		}
+		*/
 	}
 }
 
@@ -182,7 +217,7 @@ calcular os dados solicitados.
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 4652; 
+ * @POSICAO-CURSOR = 5403; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
