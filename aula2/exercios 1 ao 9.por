@@ -32,17 +32,20 @@ programa
 		que 7 deverá ser exibida a mensagem aprovado
      caso contrário deverá ser exibida a mensagem reprovado.*/	
 /*
-	inteiro nota1, nota2, nota3, nota4
-
+	real nota1, nota2, nota3, nota4
+	real resultado
+	
 	escreva("Digite as notas ")
 	leia(nota1, nota2, nota3, nota4)
-
+	
+	resultado = (nota1 + nota2 +nota3 + nota4) /4 
+	
 	se((nota1 + nota2 +nota3 + nota4)/4 >=7){
-		escreva("Aprovado")
+		escreva("Aprovado e sua media foi ", resultado)
 		}senao{
-			escreva("Reprovado")}
-*/
+			escreva("Reprovado e sua media foi ", resultado)}
 
+*/
 /*
  3) Escreva um programa que encontre o valor máximo entre 2 números 
 Exemplo: 
@@ -169,7 +172,7 @@ Você foi contratado para fazer os cálculos para o dono.
 Com base nestes fatos, faça um algoritmo para ler as quantidades de pães e de broas, e depois
 calcular os dados solicitados.
 */
-
+	
 
 	}
 }
@@ -179,7 +182,7 @@ calcular os dados solicitados.
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 4537; 
+ * @POSICAO-CURSOR = 4652; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
